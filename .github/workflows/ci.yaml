@@ -47,6 +47,7 @@ jobs:
         with:
           version: v1.55.2
           working-directory: src/product-catalog
+          args: run
 
   docker:
     runs-on: ubuntu-latest
