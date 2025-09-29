@@ -26,7 +26,7 @@ spec:
       serviceAccountName: opentelemetry-demo
       containers:
         - name: productcatalogservice
-          image: in30minthing/product-catalog:${{ github.run_id }}
+          image: in30minthing/product-catalog:18097846715
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
